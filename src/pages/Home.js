@@ -1,25 +1,61 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Teams1 from '../assets/teams/8.png'
-import Teams2 from '../assets/teams/9.png'
-import Teams3 from '../assets/teams/10.png'
-import { Carousel } from 'react-bootstrap';
+import '../styles/Home.css'
+import Carousel1 from '../assets/galery/2.png'
+import Carousel2 from '../assets/galery/3.png'
+import Carousel3 from '../assets/galery/4.png'
+import Product1 from '../assets/galery/17.png'
+import { Carousel, Card, Container, Row, Col } from 'react-bootstrap';
 
 function Home() {
     return (
-        <div>
+        <main>
             <Carousel variant="dark">
                 <Carousel.Item>
-                    <img className="d-block w-100" src={Teams1} alt="First slide" />
+                    <div className='carousel-itm'>
+                        <img className="d-block w-100" src={Carousel1} alt="First slide" />
+                    </div>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img className="d-block w-100" src={Teams2} alt="Second slide" />
+                    <div className='carousel-itm'>
+                        <img className="d-block w-100" src={Carousel2} alt="Second slide" />
+                    </div>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img className="d-block w-100" src={Teams3} alt="Third slide" />
+                    <div className='carousel-itm'>
+                        <img className="d-block w-100" src={Carousel3} alt="Third slide" />
+                    </div>
                 </Carousel.Item>
-                </Carousel>
-        </div>
+            </Carousel>
+            <Container fluid>
+                <Row className='my-5'>
+                    <Col>
+                        <Card className='w-100'>
+                            <Card.Img variant="top" src={Product1} />
+                            <Card.Body>
+                                <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col>
+                        <Card className='w-100'>
+                            <Card.Img variant="top" src={Product1} />
+                            <Card.Body>
+                                <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col>
+                        <Card className='w-100'>
+                            <Card.Img variant="top" src={Product1} />
+                            <Card.Body>
+                                <Card.Title>Card Title</Card.Title>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                </Row>
+            </Container>
+        </main>
     )
 }
 
