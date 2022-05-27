@@ -5,16 +5,18 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home'
 import Product from './pages/Product'
 import Aboutus from './pages/Aboutus'
+import Bottombar from './components/Bottombar';
 
 function App() {
   return (
     <Router>
       <Navbar/>
       <Routes>
-        <Route path='/home' exact element={<Home/>}/>
+        <Route path='/' exact element={<Home/>}/>
         <Route path='/product' element={<Product/>}/>
         <Route path='/about-us' element={<Aboutus/>}/>
       </Routes>
+      <Bottombar/>
     </Router>
   );
 }

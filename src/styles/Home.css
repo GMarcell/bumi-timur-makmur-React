@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.carousel-itm{
+    height: 200px;
 }
+
