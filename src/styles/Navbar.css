@@ -15,7 +15,7 @@
 }
 
 .logo{
-    height: 120%;
+    height: 70%;
 }
 
 header{
@@ -26,6 +26,11 @@ header{
     padding: 0 2rem;
     background-color: var(--mainColor);
     color: var(--textColor);
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100000;
 }
 
 nav a{
