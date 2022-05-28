@@ -16,4 +16,6 @@
 
 .main-content{
     background-color: var(--mainColor);
+    position: absolute;
+    bottom: 0;
 }
