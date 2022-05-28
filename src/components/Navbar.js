@@ -17,6 +17,7 @@ function Navbar() {
                 <a href='/'>Home</a>
                 <a href='/about-us'>About Us</a>
                 <a href='/product'>Product</a>
+                <a href='/teams'>Our Teams</a>
                 <button className='nav-btn nav-close-btn' onClick={showNavbar}>
                     <FaTimes/>
                 </button>

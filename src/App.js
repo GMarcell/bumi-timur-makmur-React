@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import Product from './pages/Product'
 import Aboutus from './pages/Aboutus'
 import Bottombar from './components/Bottombar';
+import Teams from './pages/Teams';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/' exact element={<Home/>}/>
         <Route path='/product' element={<Product/>}/>
         <Route path='/about-us' element={<Aboutus/>}/>
+        <Route path='/teams' element={<Teams/>}/>
       </Routes>
       <Bottombar/>
     </Router>
