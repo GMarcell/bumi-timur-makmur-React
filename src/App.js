@@ -7,6 +7,7 @@ import Product from './pages/Product'
 import Aboutus from './pages/Aboutus'
 import Bottombar from './components/Bottombar';
 import Teams from './pages/Teams';
+import FloatingBtn from './components/FloatingBtn';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/about-us' element={<Aboutus/>}/>
         <Route path='/teams' element={<Teams/>}/>
       </Routes>
+      <FloatingBtn/>
       <Bottombar/>
     </Router>
   );
