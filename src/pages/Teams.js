@@ -10,10 +10,10 @@ function Teams() {
     return (
         <div>
             <Container className='mb-5'>
-                <h2 className='fw-bold ps-4 pt-2'>What We Do</h2>
+                <h2 className='fw-bold ps-4 pt-2'>Our Teams</h2>
                 <Row>
-                    <Col>
-                        <img className='w-50 rounded-circle' src={Ardya} alt='ardya'/>
+                    <Col className='d-flex flex-column justify-content-center align-items-center'>
+                        <img className='w-50 rounded' src={Ardya} alt='ardya'/>
                         <h2>Ardya Adam</h2>
                         <h5>Director</h5>
                         <div>
@@ -22,8 +22,8 @@ function Teams() {
                             <FaLinkedin size={28}/>
                         </div>
                     </Col>
-                    <Col>
-                        <img className='w-50 rounded-circle' src={Gracia} alt='gracia'/>
+                    <Col className='d-flex flex-column justify-content-center align-items-center'>
+                        <img className='w-50 rounded' src={Gracia} alt='gracia'/>
                         <h2>Gracia Karawisan</h2>
                         <h5>Product Development</h5>
                         <div>
@@ -32,8 +32,8 @@ function Teams() {
                             <FaLinkedin size={28}/>
                         </div>
                     </Col>
-                    <Col>
-                        <img className='w-50 rounded-circle' src={Stania} alt='stania'/>
+                    <Col className='d-flex flex-column justify-content-center align-items-center'>
+                        <img className='w-50 rounded' src={Stania} alt='stania'/>
                         <h2>Stania Teresa</h2>
                         <h5>Marketing & Finance</h5>
                         <div>
