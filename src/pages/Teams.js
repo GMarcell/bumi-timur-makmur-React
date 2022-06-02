@@ -5,6 +5,9 @@ import Gracia from '../assets/teams/9.png'
 import Stania from '../assets/teams/10.png'
 import { GrMailOption } from "react-icons/gr";
 import {FaWhatsapp, FaLinkedin} from 'react-icons/fa'
+import KemenKumHam from '../assets/galery/11.PNG'
+import Beacukai from '../assets/galery/12.PNG'
+
 
 function Teams() {
     return (
@@ -41,6 +44,17 @@ function Teams() {
                             <GrMailOption size={28}/>
                             <FaLinkedin size={28}/>
                         </div>
+                    </Col>
+                </Row>
+                <Row>
+                    <h2 className='fw-bold ps-4 pt-2'>We Registered On</h2>
+                    <Col className='d-flex flex-column justify-content-center align-items-center text-center'>
+                        <img className='w-25' src={KemenKumHam} alt='KemenKumHam'/>
+                        <h2 className='fw-bold'>Ministry of Law and Human Rights </h2>
+                    </Col>
+                    <Col className='d-flex flex-column justify-content-center align-items-center text-center'>
+                        <img className='w-50' src={Beacukai} alt='Beacukai'/>
+                        <h2 className='fw-bold'>Directorate General of Customs and Excise</h2>
                     </Col>
                 </Row>
             </Container>
