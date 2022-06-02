@@ -9,12 +9,11 @@ function Bottombar() {
         <main className='main-content'>
             <Container fluid>
                 <Row>
-                    <Col>
-                        <h2 className='fw-bold text-center pt-3'>BUMI TIMUR MAKMUR</h2>
+                    <Col className='pt-3'>
                         <div className='d-flex mb-3'>
                             <img className='w-50 m-auto' src={Logo1} alt='Logo'/>
                         </div>
-                        <h6>We serve worldwide buyers by supplying unique home décor products as well as small indoor furniture items, with fully experienced staff in home décor business</h6>
+                        <h6>CV Bumi Timur Makmur is a manufacturer and exporter of Indonesian agricultural and fisheries products with the highest quality to be shipped both locally and globally.</h6>
                     </Col>
                     <Col>
                         <h2 className='fw-bold text-center pt-3'>Contact Us</h2>

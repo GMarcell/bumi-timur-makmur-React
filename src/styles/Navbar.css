@@ -8,7 +8,7 @@
 }
 
 :root{
-    --mainColor: #486dff;
+    --mainColorNav: #fffdd0;
     --mainColorLight: #5767AA;
     --secondaryColor: #DB2B39;
     --textColor: rgb(0, 0, 0);
@@ -24,7 +24,7 @@ header{
     justify-content: space-between;
     height: 80px;
     padding: 0 2rem;
-    background-color: var(--mainColor);
+    background-color: var(--mainColorNav);
     color: var(--textColor);
     position: sticky;
     top: 0;
@@ -55,7 +55,7 @@ header .nav-btn{
     font-size: 1.8rem;
 }
 
-@media only screen and (max-width: 1023px){
+@media only screen and (max-width: 1024px){
     header .nav-btn{
         visibility: visible;
         opacity: 1;
@@ -72,7 +72,7 @@ header .nav-btn{
         align-items: center;
         justify-content: center;
         gap: 1.5rem;
-        background-color: var(--mainColor);
+        background-color: var(--mainColorNav);
         transition: 1s;
         transform: translateX(100vw)
     }

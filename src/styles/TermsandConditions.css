@@ -1,0 +1,21 @@
+.dropdownitem{
+    border: solid 2px black;
+    display: none;
+}
+
+.show{
+    display: block !important;
+}
+
+.mentok-bawah{
+    margin-bottom: 100px;
+}
+
+.dropbtn{
+    background-color: #fffdd0;
+    margin-bottom: 1px;
+    border: solid 2px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
