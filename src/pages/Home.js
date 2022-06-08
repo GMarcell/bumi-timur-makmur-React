@@ -1,6 +1,8 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/Home.css'
+import Navbar from '../components/Navbar'
+import Bottombar from '../components/Bottombar';
 import { Carousel, Card, Container, Row, Col } from 'react-bootstrap';
 import Product1 from '../assets/galery/17.png'
 import Product2 from '../assets/galery/22.PNG'
@@ -13,6 +15,7 @@ import Tamarind from '../assets/galery/35.jpeg'
 function Home() {
     return (
         <main>
+            <Navbar/>
             <div className='background-image'>
                 <div className='text-center wording'>
                     <h1 className='fw-bold'>CV Bumi Timur Makmur</h1>
@@ -101,6 +104,7 @@ function Home() {
                     </Carousel.Item>
                 </Carousel>
             </Container>
+            <Bottombar/>
         </main>
     )
 }

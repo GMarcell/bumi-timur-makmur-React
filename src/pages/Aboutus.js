@@ -1,5 +1,7 @@
 import React from 'react'
 import { Col, Container, Row, Card } from 'react-bootstrap'
+import Navbar from '../components/Navbar'
+import Bottombar from '../components/Bottombar';
 import Pin from '../assets/icons/5.png'
 import Tangan from '../assets/icons/6.png'
 import Gear from '../assets/icons/7.png'
@@ -14,6 +16,7 @@ import Kapal from '../assets/galery/4.png'
 function Aboutus() {
     return (
         <div>
+            <Navbar/>
             <Container fluid className='mb-3'>
                 <Row>
                     <h2 className='fw-bold ps-4 pt-3'>What We Do</h2>
@@ -74,6 +77,7 @@ function Aboutus() {
                     </Col>
                 </Row>
             </Container>
+            <Bottombar/>
         </div>
     )
 }

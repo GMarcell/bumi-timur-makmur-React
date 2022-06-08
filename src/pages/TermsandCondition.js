@@ -2,6 +2,8 @@ import React, { useRef } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import { FaPlus } from 'react-icons/fa'
 import '../styles/TermsandConditions.css'
+import Navbar from '../components/Navbar'
+import Bottombar from '../components/Bottombar';
 
 function TermsandCondition() {
     const paymentRef = useRef()
@@ -24,6 +26,7 @@ function TermsandCondition() {
 
     return (
         <div>
+            <Navbar/>
             <Container className='mentok-bawah'>
                 <h2 className='fw-bold pt-4'>Terms & Conditions</h2>
                 <Row>
@@ -88,6 +91,7 @@ function TermsandCondition() {
                     </Col>
                 </Row>
             </Container>
+            <Bottombar/>
         </div>
     )
 }

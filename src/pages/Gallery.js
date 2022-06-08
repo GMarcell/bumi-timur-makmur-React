@@ -1,6 +1,8 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import '../styles/Galery.css'
+import Navbar from '../components/Navbar'
+import Bottombar from '../components/Bottombar';
 import Galery1 from '../assets/galery/18.png'
 import Galery2 from '../assets/galery/19.png'
 import Galery3 from '../assets/galery/21.png'
@@ -17,6 +19,7 @@ import Galery12 from '../assets/galery/36.jpeg'
 function Gallery() {
     return (
         <div>
+            <Navbar/>
             <Container fluid className='mt-3'>
             <h2 className='fw-bold ps-4 pt-3'>Gallery</h2>
                 <Row>
@@ -64,6 +67,7 @@ function Gallery() {
                     </Col>
                 </Row>
             </Container>
+            <Bottombar/>
         </div>
     )
 }

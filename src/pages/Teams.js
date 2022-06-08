@@ -1,5 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
+import Navbar from '../components/Navbar'
+import Bottombar from '../components/Bottombar';
 import Ardya from '../assets/teams/8.png'
 import Gracia from '../assets/teams/9.png'
 import Stania from '../assets/teams/10.png'
@@ -10,6 +12,7 @@ import {FaWhatsapp, FaLinkedin} from 'react-icons/fa'
 function Teams() {
     return (
         <div>
+            <Navbar/>
             <Container className='mb-5'>
                 <h2 className='fw-bold ps-4 pt-2'>Our Teams</h2>
                 <Row>
@@ -45,6 +48,7 @@ function Teams() {
                     </Col>
                 </Row>
             </Container>
+            <Bottombar/>
         </div>
     )
 }
