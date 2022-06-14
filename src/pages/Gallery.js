@@ -15,6 +15,16 @@ import Galery9 from '../assets/galery/32.png'
 import Galery10 from '../assets/galery/33.png'
 import Galery11 from '../assets/galery/34.png'
 import Galery12 from '../assets/galery/36.jpeg'
+import Galery13 from '../assets/galery/baru1.png'
+import Galery14 from '../assets/galery/baru2.png'
+import Galery15 from '../assets/galery/baru3.png'
+import Galery16 from '../assets/galery/baru4.png'
+import Galery17 from '../assets/galery/baru5.png'
+import Galery18 from '../assets/galery/baru6.png'
+import Galery19 from '../assets/galery/baru7.png'
+import Galery20 from '../assets/galery/baru8.png'
+import Galery21 from '../assets/galery/baru9.png'
+// import Galery22 from '../assets/galery/baru10.png'
 
 function Gallery() {
     return (
@@ -64,6 +74,50 @@ function Gallery() {
                     </Col>
                     <Col className='d-flex flex-column justify-content-center align-items-center mb-3'>
                         <img className='galeryimg' src={Galery12} alt='galery12'/>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col className='d-flex flex-column justify-content-center align-items-center mb-3'>
+                        <img className='galeryimg' src={Galery10} alt='galery10'/>
+                    </Col>
+                    <Col className='d-flex flex-column justify-content-center align-items-center mb-3'>
+                        <img className='galeryimg' src={Galery11} alt='galery11'/>
+                    </Col>
+                    <Col className='d-flex flex-column justify-content-center align-items-center mb-3'>
+                        <img className='galeryimg' src={Galery12} alt='galery12'/>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col className='d-flex flex-column justify-content-center align-items-center mb-3'>
+                        <img className='galeryimg' src={Galery13} alt='galery13'/>
+                    </Col>
+                    <Col className='d-flex flex-column justify-content-center align-items-center mb-3'>
+                        <img className='galeryimg' src={Galery14} alt='galery14'/>
+                    </Col>
+                    <Col className='d-flex flex-column justify-content-center align-items-center mb-3'>
+                        <img className='galeryimg' src={Galery15} alt='galery15'/>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col className='d-flex flex-column justify-content-center align-items-center mb-3'>
+                        <img className='galeryimg' src={Galery16} alt='galery16'/>
+                    </Col>
+                    <Col className='d-flex flex-column justify-content-center align-items-center mb-3'>
+                        <img className='galeryimg' src={Galery17} alt='galery17'/>
+                    </Col>
+                    <Col className='d-flex flex-column justify-content-center align-items-center mb-3'>
+                        <img className='galeryimg' src={Galery18} alt='galery18'/>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col className='d-flex flex-column justify-content-center align-items-center mb-3'>
+                        <img className='galeryimg' src={Galery19} alt='galery19'/>
+                    </Col>
+                    <Col className='d-flex flex-column justify-content-center align-items-center mb-3'>
+                        <img className='galeryimg' src={Galery20} alt='galery20'/>
+                    </Col>
+                    <Col className='d-flex flex-column justify-content-center align-items-center mb-3'>
+                        <img className='galeryimg' src={Galery21} alt='galery21'/>
                     </Col>
                 </Row>
             </Container>

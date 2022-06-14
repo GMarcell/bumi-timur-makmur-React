@@ -5,7 +5,6 @@ import Bottombar from '../components/Bottombar';
 import Ardya from '../assets/teams/8.png'
 import Gracia from '../assets/teams/9.png'
 import Stania from '../assets/teams/10.png'
-import { GrMailOption } from "react-icons/gr";
 import {FaWhatsapp, FaLinkedin} from 'react-icons/fa'
 
 
@@ -21,9 +20,12 @@ function Teams() {
                         <h2>Ardya Adam</h2>
                         <h5>Director</h5>
                         <div>
-                            <FaWhatsapp size={28}/>
-                            <GrMailOption size={28}/>
-                            <FaLinkedin size={28}/>
+                            <a href='https://wa.me/6285157776759'>
+                                <FaWhatsapp size={38} className='mx-2'/>
+                            </a>
+                            <a href='https://www.linkedin.com/in/ardyaadam'>
+                                <FaLinkedin size={38} className='mx-2'/>
+                            </a>
                         </div>
                     </Col>
                     <Col className='d-flex flex-column justify-content-center align-items-center'>
@@ -31,9 +33,12 @@ function Teams() {
                         <h2>Gracia Karawisan</h2>
                         <h5>Product Development</h5>
                         <div>
-                            <FaWhatsapp size={28}/>
-                            <GrMailOption size={28}/>
-                            <FaLinkedin size={28}/>
+                            <a href='https://wa.me/6281238728268'>
+                                <FaWhatsapp size={38} className='mx-2'/>
+                            </a>
+                            <a href='https://www.linkedin.com/in/gracia-trifena-karawisan-34619123b'>
+                                <FaLinkedin size={38} className='mx-2'/>
+                            </a>
                         </div>
                     </Col>
                     <Col className='d-flex flex-column justify-content-center align-items-center'>
@@ -41,9 +46,10 @@ function Teams() {
                         <h2>Stania Teresa</h2>
                         <h5>Marketing & Finance</h5>
                         <div>
-                            <FaWhatsapp size={28}/>
-                            <GrMailOption size={28}/>
-                            <FaLinkedin size={28}/>
+                            <a href='https://wa.me/6281293288893'>
+                                <FaWhatsapp size={38} className='mx-2'/>
+                            </a>
+                            <FaLinkedin size={38} className='mx-2'/>
                         </div>
                     </Col>
                 </Row>

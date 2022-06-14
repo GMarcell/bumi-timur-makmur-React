@@ -21,9 +21,13 @@ function Bottombar() {
                         <h6>Factory: Jalan Timor Raya (Pasar Oesao), Oesao,. Kupang Timur, Kupang, Nusa Tenggara Timur 85362</h6>
                         <h6>Telp: +62-851-5777-6759</h6>
                         <h6>Email: marketing@bumimakmur@marketing.com</h6>
-                        <FaFacebookSquare size={28}/>
+                        <a href='https://www.facebook.com/profile.php?id=100082209031247'>
+                            <FaFacebookSquare size={28}/>
+                        </a>
                         <FaInstagram size={28}/>
-                        <FaLinkedin size={28}/>
+                        <a href='https://www.linkedin.com/in/bumi-timur-makmur-1681aa241'>
+                            <FaLinkedin size={28}/>
+                        </a>
                     </Col>
                 </Row>
             </Container>
