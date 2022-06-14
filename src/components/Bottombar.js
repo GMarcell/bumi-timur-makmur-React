@@ -24,7 +24,9 @@ function Bottombar() {
                         <a href='https://www.facebook.com/profile.php?id=100082209031247'>
                             <FaFacebookSquare size={28}/>
                         </a>
-                        <FaInstagram size={28}/>
+                        <a href='instagram.com/bumitimurmakmur'>
+                            <FaInstagram size={28}/>
+                        </a>
                         <a href='https://www.linkedin.com/in/bumi-timur-makmur-1681aa241'>
                             <FaLinkedin size={28}/>
                         </a>
