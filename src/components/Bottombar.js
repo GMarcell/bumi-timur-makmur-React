@@ -27,7 +27,7 @@ function Bottombar() {
                         <a href='instagram.com/bumitimurmakmur'>
                             <FaInstagram size={28}/>
                         </a>
-                        <a href='https://www.linkedin.com/in/bumi-timur-makmur-1681aa241'>
+                        <a href='http://linkedin.com/company/bumi-timur-makmur'>
                             <FaLinkedin size={28}/>
                         </a>
                     </Col>
