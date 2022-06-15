@@ -49,7 +49,9 @@ function Teams() {
                             <a href='https://wa.me/6281293288893'>
                                 <FaWhatsapp size={38} className='mx-2'/>
                             </a>
-                            <FaLinkedin size={38} className='mx-2'/>
+                            <a href='https://www.linkedin.com/in/stania-teresa-39371a199'>
+                                <FaLinkedin size={38} className='mx-2'/>
+                            </a>
                         </div>
                     </Col>
                 </Row>
