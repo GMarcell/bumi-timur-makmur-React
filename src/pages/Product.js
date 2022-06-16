@@ -51,7 +51,7 @@ function Product() {
                         <Container fluid>
                             <Row>
                                 <Col>
-                                    <h4 className='fw-bold'>Coffee bean</h4>
+                                    <h4 className='fw-bold'>Coffee Bean</h4>
                                     <p>Coffee bean is a seed of the Coffea plant and the source for coffee. It is the pip inside the red or purple fruit often referred to as a cherry. Just like ordinary cherries, the coffee fruit is also a so-called stone fruit. Even though the coffee beans are not technically beans, they are referred to as such because of their resemblance to true beans.</p>
                                 </Col>
                                 <Col>
@@ -67,7 +67,7 @@ function Product() {
                             <Row>
                                 <Col>
                                     <h4 className='fw-bold'>Peanut</h4>
-                                    <p>Peanut is a legume crop grown mainly for its edible seeds. It is widely grown in the tropics and subtropics.</p>
+                                    <p>Peanut is a legume crop grown mainly for its edible seeds. It is widely grown in the tropics and subtropics countries.</p>
                                 </Col>
                                 <Col>
                                     <Card className='w-100'>

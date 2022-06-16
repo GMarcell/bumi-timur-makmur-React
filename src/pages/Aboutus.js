@@ -22,7 +22,7 @@ function Aboutus() {
                     <h2 className='fw-bold ps-4 pt-3'>What We Do</h2>
                     <Col>
                         <h4 className='ps-3 pt-1'>
-                            CV Bumi Timur Makmur is a manufacturer and exporter of Indonesian agricultural and fishery products with the highest quality to be shipped both locally and globally. We collaborates with local farmers and fishermen to produce the finest product. Our goal is to wholeheartedly provide everything our customers need. 
+                            CV Bumi Timur Makmur is a manufacturer and exporter company of Indonesian agricultural and aquacultural products with the highest quality to be shipped both locally and globally. We collaborates with local farmers to produce the finest product. Our goals are to wholeheartedly provide and supply Indonesian agricultural and aquacultural products to our costomer. 
                         </h4>
                     </Col>
                     <Col>
@@ -35,15 +35,18 @@ function Aboutus() {
                     <h2 className='fw-bold ps-4 pt-5'>Our Key Feature</h2>
                     <Col className='d-flex flex-column'>
                         <img className='w-50 mx-auto' src={Pin} alt='Integrity'/>
+                        <h2 className='text-center fw-bold'>Integrity</h2>
                         <h5 className='text-center'>Integrity means telling the truth, keeping our word, and treating others with fairness and respect. Integrity is one of our most cherished assets.</h5>
                     </Col>
                     <Col className='d-flex flex-column'>
                         <img className='w-50 mx-auto' src={Tangan} alt='Commitment'/>
-                        <h5>Commitment is important where we will continue to provide the best to our customers and partners at all times. Earning customer’s trust by communicating in an open, honest way.</h5>
+                        <h2 className='text-center fw-bold'>Commitment</h2>
+                        <h5>Commitment is important where we will continue to provide the best to our customers and partners at all times. Earning customer's trust by communicating in an open and honest way.</h5>
                     </Col>
                     <Col className='d-flex flex-column'>
                         <img className='w-50 mx-auto' src={Gear} alt='Quality'/>
-                        <h5>It's our goal for all of our product delivered under highest standard and exceeds the expectations of our esteemed customers.</h5>
+                        <h2 className='text-center fw-bold'>Quality</h2>
+                        <h5>It is our goal for all of our product delivered under highest standard and exceeds the expectations of our esteemed customers.</h5>
                     </Col>
                 </Row>
                 <Row>

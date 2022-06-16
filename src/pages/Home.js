@@ -19,10 +19,15 @@ function Home() {
             <div className='background-image'>
                 <div className='text-center wording'>
                     <h1 className='fw-bold'>CV Bumi Timur Makmur</h1>
-                    <h4 className='fw-bold'>One stop solution for the finest agriculture and fishery product from Indonesia</h4>
+                    <h4 className='fw-bold'>One stop solution for the finest agricultural and aquacultural product from Indonesia</h4>
                 </div>
             </div>
             <Container fluid className='mb-5'>
+                <h2 className='fw-bold ps-4 pt-5'>Company Profile</h2>
+                <p className='px-4'>CV Bumi Timur Makmur is a privately owned company that was founded in 2021. Our team consists of 3 people who are creative, innovative and responsible. The beginning of our company starts with our share interest in export industry, mainly focusing on aqua-agriculture. We also share the same vision and ambition, therefore we founded CV Bumi Timur Makmur, a manufacture and exporting company that is superior and competitive in the world and contributes to the achievement of the nation's progress.</p>
+                <p className='px-4'>Our company is engaged in agriculture and aquaculture sectors. For agriculture sector, we focus on Corn Kernel, Corncob, Coffee Bean, Peanut, Candlenut, and Tamarind. For aquaculture sector we only focus on Seaweed. CV Bumi Timur Makmur is located in Indonesia, precisely on Timor Island, Nusa Tenggara Timur Province (Factory).</p>
+                <p className='px-4'>In developing sales in the agricultural and aquaculture sectors, CV Bumi Timur Makmur features several farmers on Timur Island.</p>
+                <p className='px-4'>As in accordance with our company name, CV Bumi Timur Makmur, it reflects Indonesia's natural wealth in eastern Indonesia, especially in the province of Nusa Tenggara Timur. Therefore, our company collaborates with several farmers in Nusa Tenggara Timur archipelago to produce quality products. Our company is also committed to provide the best services for all of our partners.</p>
                 <h2 className='fw-bold ps-4 pt-5'>Overview</h2>
                 <Carousel variant="dark" className='pt-1'>
                     <Carousel.Item>
