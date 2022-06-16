@@ -22,7 +22,7 @@ function Aboutus() {
                     <h2 className='fw-bold ps-4 pt-3'>What We Do</h2>
                     <Col>
                         <h4 className='ps-3 pt-1'>
-                            CV Bumi Timur Makmur is a manufacturer and exporter of Indonesian agricultural and fisheries products with the highest quality to be shipped both locally and globally. Our goal is to wholeheartedly provide everything our customers need. 
+                            CV Bumi Timur Makmur is a manufacturer and exporter of Indonesian agricultural and fishery products with the highest quality to be shipped both locally and globally. We collaborates with local farmers and fishermen to produce the finest product. Our goal is to wholeheartedly provide everything our customers need. 
                         </h4>
                     </Col>
                     <Col>

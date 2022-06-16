@@ -19,7 +19,7 @@ function Home() {
             <div className='background-image'>
                 <div className='text-center wording'>
                     <h1 className='fw-bold'>CV Bumi Timur Makmur</h1>
-                    <h4 className='fw-bold'>One Stop solution for the finest agriculture and fishery product from Indonesia</h4>
+                    <h4 className='fw-bold'>One stop solution for the finest agriculture and fishery product from Indonesia</h4>
                 </div>
             </div>
             <Container fluid className='mb-5'>

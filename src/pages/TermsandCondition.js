@@ -64,7 +64,7 @@ function TermsandCondition() {
                         </div>
                         <div className='dropdownitem' ref={ordersRef}>
                             <h5 className='px-3'>FCL (Full Container Load)<br/>
-                            Minimum order is 1 x 20 container</h5>
+                            Minimum order is 1 x 20ft container</h5>
                         </div>
                         <div onClick={showsample}>
                             <div className='px-3 dropbtn'>
